@@ -8,4 +8,3 @@ public class Application {
         System.out.println(RandomMaker.tossCoin());
     }
 }
-m
