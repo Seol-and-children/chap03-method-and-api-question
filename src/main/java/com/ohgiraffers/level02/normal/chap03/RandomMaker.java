@@ -3,7 +3,7 @@ package com.ohgiraffers.level02.normal.chap03;
 public class RandomMaker {
 
     public int randomNumber(int min, int max){
-        int random1 = (int) (Math.random() * max + 1) + min;
+        int random1 = (int) (Math.random() * (max + 1)) + min;
         return random1;
     }
 
